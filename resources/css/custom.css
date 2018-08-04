@@ -1,0 +1,567 @@
+.sidenav {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    padding-top: 20px;
+
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.navbar {
+    display: none;
+}
+
+.sidenav a {
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+
+    font-family: "Playfair Display";
+	font-size: 1.5em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+    line-height: 26.4px;
+    text-align: center;
+}
+
+.menu {
+    margin-top: 5em;
+}
+
+.sidenav a:hover {
+    color: #CC8314;
+}
+
+.sidenav a:focus {
+    outline: none;
+}
+
+.profile h1 {
+    color: #CC8314;
+    font-family: "Playfair Display";
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 26.4px;
+    letter-spacing: 1px;
+}
+
+.image-rounded {
+    width: 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 2em;
+}
+
+.social a {
+    color: #CC8314;
+    font-size: 2.5em;
+    padding: 15px;
+    display: inline-block;
+}
+
+.main {
+    margin-left: 25%;
+    position: relative;
+
+    min-height: 100%;
+
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+    
+
+.main::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    position: fixed;
+    background-attachment: scroll;
+
+    opacity: 0.15;
+}
+
+.main .mainTitle {
+    font-family: "Playfair Display";
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 2em;
+    letter-spacing: 2px;
+    text-align: center;
+
+    color: #000000;
+
+    padding-top: 1em;
+}
+
+.main .date {
+    font-family: Open Sans;
+	font-size: 1.2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    line-height: 1.5em;
+    
+    opacity: 0.6;
+
+    text-align: center;
+
+    padding-top: 0em;
+}
+
+.main p {
+    text-align: center;
+    margin: auto; 
+    margin-top: 4em;
+
+    width: 60%;
+
+    font-family: Open Sans;
+	font-size: 1.2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+    line-height: 2.5em;
+
+    color: #423C3C;
+}
+
+.main .role {
+    font-family: "Playfair Display";
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    text-align: center;
+
+    color: #000000;
+
+    margin-top: 1em;
+}
+
+.description-role {
+    font-family: Open Sans;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+    line-height: 2.5em;
+
+    text-align: center;
+    margin: auto; 
+
+    color: #333;
+
+    opacity: 0.7;
+    background-color: white;
+}
+
+
+/* Fonts Main Page */
+
+.main .welcomeTitle{
+    color: #CC8314;
+    font-family: "Playfair Display";
+    font-size: 2.5em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.main .subtitle {
+    font-family: "Playfair Display";
+    font-size: 1.25em;
+    font-weight: normal;
+    line-height: 2em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000000;
+}
+
+.main h3 {
+    color: #CC8314;
+    font-family: "Playfair Display";
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: 500;
+
+    line-height: 1.5em;
+}
+
+.main h4 {
+    color: #CC8314;
+    font-family: "Playfair Display";
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 800;
+
+    line-height: 1.5em;
+}
+
+/* ------------- */
+
+.roleAboutMe {
+    font-family: Open Sans;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5em;
+    opacity: 0.4;
+}
+
+.aboutMeOrangeText {
+    color: #CC8314;
+    font-family: "Playfair Display";
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 800;
+
+    line-height: 1.5em;
+}
+
+.aboutMeBlackText {
+    color: #000000;
+    font-family: "Playfair Display";
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 800;
+
+    line-height: 1.5em;
+}
+
+.iconAboutMe {
+    width: 96px;
+    height: 96px;
+    margin-right: 1em;
+}
+
+.divForCircle {
+    max-width: 250px;
+    max-height: 550px;
+    margin: 0 auto;
+
+    margin-bottom: 5em;
+}
+
+.circle {
+    border: 1px solid black;
+    border-radius: 50%;
+
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.circleOne {
+    background: url(../images/icons/offer/wp.png) no-repeat center center;  
+    background-color: white; 
+}
+
+.circleTwo {
+    background: url(../images/icons/offer/shop.png) no-repeat center center;
+    background-color: white; 
+}
+
+.circleThird {
+    background: url(../images/icons/offer/app.png) no-repeat center center;
+    background-color: white; 
+}
+
+.logos i {
+    padding-top: 0.5em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    padding-bottom: 0.5em;
+
+    font-size: 4em;
+    display: inline-block;
+}
+
+.logos .fa-html5 {
+    color: #EABB36;
+}
+
+.logos .fa-css3-alt {
+    color: #186EB9;
+}
+
+.logos .fa-js-square {
+    color: #E41CB6;
+}
+
+.logos .fa-php {
+    color: #E8535D;
+}
+
+.contact {
+    margin-left: 25%;
+}
+
+.form-login {
+    width: 100%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.btn-send {
+    background: #CC8314;
+    color: white;
+    width: 8em;
+    height: 2em;
+
+    font-family: Open Sans;
+	font-size: 1.5em;
+	font-style: normal;
+	font-variant: normal;
+    font-weight: bold;
+    
+    border-radius: 20px 20px 20px 20px;
+
+    padding: 5px 20px 5px 20px;
+
+    display: block; 
+    margin: 0 auto;
+
+    margin-bottom: 1em;
+}
+
+.labelMessageForm {
+    font-family: Open Sans;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+    color: #080404;
+
+    margin-top: 0.5em;
+}
+
+.boxProject {
+    margin-bottom: 2em;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.gallery {
+    display: inline-block;
+    position: relative;
+
+ }
+ 
+ .gallery img {
+    width: 300px;
+    height: 300px;
+    margin-top: 1em;
+    transition: 1s;
+ }
+
+ .gallery:hover .overlay {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0.8;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+ .lightbox{overflow-x:hidden;overflow-y:scroll}
+
+@media screen and (max-width: 540px) {
+
+    .navbar-toggler-icon i {
+        color: #fff;
+        margin-top: 2px;
+        font-size: 1.4em;
+    }
+
+    nav.navbar.fixed-top {
+        max-height: 100%;
+        overflow-y: auto;
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+        background-color: #CC8314;
+    }
+
+    .navbar-expanded {
+        background-color: #CC8314;
+    }
+
+    .navbar-expanded h1 {
+        font-size: 1.5em;
+        color: #fff;
+
+        font-family: "Playfair Display";
+        font-size: 1.2em;
+        font-weight: normal;
+        line-height: 26.4px;
+        letter-spacing: 1px;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .navbar-menu a{
+        padding-bottom: 10px;
+        text-decoration: none;
+        color: #fff;
+        display: block;
+
+        font-family: "Playfair Display";
+        font-size: 1.25em;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 200;
+        line-height: 26.4px;
+        text-align: center;
+    }
+
+    .navbar-menu a:hover {
+        color: #423C3C;
+    }
+
+    .navbar-expanded a:hover {
+        text-decoration: none;
+    }
+
+    .navbar-expanded a:focus{
+        outline: none;
+    }
+
+    .navbar-expanded .image-rounded {
+        width: 50%;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        margin-top: -30px; 
+    }
+
+    .fa.fa-navicon {
+        font-size: 35px;
+        color:white;
+    }
+
+    .main {
+        margin-left: 0;
+        height: 100%;
+       
+    }
+
+    .social a {
+        font-size: 1em;
+        padding: 0;
+    }
+
+    .main h1 {
+        padding-top: 3em;
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+
+    .main h2 {
+        padding-top: 0.5em;
+        font-size: 1.2em;
+    }
+
+    .main p {
+        font-size: 1em;
+        line-height: 2em;
+        width: 80%;
+        margin-top: 3em;
+    }
+
+    .social i {
+        color: #fff;
+        font-size: 1.7em;
+        padding: 0.5em;
+    }
+
+    .logos i {
+        padding-top: 1em;
+        padding-left: 0.5em;
+        padding-bottom: 0.5em;
+        font-size: 2.5em;
+    }
+
+    /* .gallery img {
+        width: 50%;
+        height: 10em;
+        margin-top: 1em;
+        padding: 5px;
+        transition: 1s;
+    } */
+
+    .main .welcomeTitle{
+        margin-top: -1em;
+    }
+
+    .main .subtitle {
+        margin-top: -3em;
+    }
+
+    .iconAboutMe {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .main .mainTitle {
+        margin-top: 2em;
+        font-size: 1.5em;
+    }
+
+}
+
+/* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} */
