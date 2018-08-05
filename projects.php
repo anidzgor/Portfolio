@@ -1,5 +1,3 @@
-<?php include('inc/footer.php') ?>
-
 <?php include('inc/header.php') ?>
 
 <div class="main mb-5">
