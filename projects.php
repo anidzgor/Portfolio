@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xs-6 col-sm-4 boxProject text-center">
-                <a target="_blank" href="http://creativeagency.nidzgorski.pl">
+                <a target="_blank" href="https://nidzgorski.pl/creativeagency">
                     <div class="gallery">
                         <img src="resources/images/projects/agency-min.png">
                         <div class="overlay">
