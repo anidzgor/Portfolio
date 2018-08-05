@@ -30,7 +30,7 @@
 
     <h5 class="aboutMeBlackText mb-5">
         <img class="iconAboutMe" src="resources/images/icons/aboutme/baby.png">
-        Urodziłem się 16 października 1993r. w Ostródzie
+        Urodziłem się w Ostródzie
     </h5>
 
 </div>
