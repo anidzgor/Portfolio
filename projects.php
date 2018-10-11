@@ -27,6 +27,17 @@
                 </a>
             </div>
 
+            <div class="col-xs-6 col-sm-4 boxProject text-center">
+                <a target="_blank" href="http://prestashop.nidzgorski.pl/">
+                    <div class="gallery">
+                        <img src="resources/images/projects/sklep.png">
+                        <div class="overlay">
+                            <div class="text">Sklep z pościelami</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
         </div>
     </div>
 
