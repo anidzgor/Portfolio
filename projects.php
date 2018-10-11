@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xs-6 col-sm-4 boxProject text-center">
-                <a target="_blank" href="https://nidzgorski.pl/creativeagency">
+                <a target="_blank" href="/creativeagency">
                     <div class="gallery">
                         <img src="resources/images/projects/agency-min.png">
                         <div class="overlay">
@@ -17,7 +17,7 @@
             </div>
 
             <div class="col-xs-6 col-sm-4 boxProject text-center">
-                <a target="_blank" href="https://nidzgorski.pl/weatherapp">
+                <a target="_blank" href="/WeatherApplication/index.html">
                     <div class="gallery">
                         <img src="resources/images/projects/weatherapp.png">
                         <div class="overlay">
